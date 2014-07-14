@@ -6,11 +6,8 @@ first-cloud:
   servers:
     app1:
       size: small
+      whenever: on
       thin: 2
       delayed_job: 1
-      # sidekiq: 1
-      # clockwork: on
-      whenever: on
-      # elasticsearch: on
       databases:
         - postgresql
