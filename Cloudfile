@@ -6,8 +6,8 @@ first-cloud:
   servers:
     app1:
       size: small
-      whenever: on
+      #whenever: on
       thin: 2
-      delayed_job: 1
+      #delayed_job: 1
       databases:
         - postgresql
