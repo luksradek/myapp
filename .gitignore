@@ -15,5 +15,5 @@
 /log/*.log
 /tmp
 
-#Ignore all keys
+# Ignore all keys
 config/secrets.yml
